@@ -9,8 +9,8 @@ import java.io.Serializable;
  */
 public class JsonResult implements Serializable {
 	private static final long serialVersionUID = 5116450891657481137L;
-	public static final int SUCCESS=1;
-    public static final int ERROR=0;
+	public static final int SUCCESS=2;
+    public static final int ERROR=3;
 	private int state;
 	private String message;
 	private Object data;
